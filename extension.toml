@@ -1,0 +1,12 @@
+id = "nestor"
+name = "Nestor C LSP"
+version = "0.0.1"
+schema_version = 1
+authors = ["Benjamin Davies <bentendavies@gmail.com>"]
+description = "C LSP that takes a silly amount of shortcuts"
+repository = "https://github.com/Benjamin-Davies/zed-nestor"
+
+[language_servers.nestor]
+name = "Nestor"
+languages = ["C"]
+opt_in_languages = ["C"]
